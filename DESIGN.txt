@@ -1,0 +1,27 @@
+Vanessa Wei
+
+getNumFromRange
+getIntFromRange
+clamp
+- no specific class is being used, and its inputs are (mostly) primitives
+
+parse*
+processImageLine
+getImages
+setAlpha
+- left in Functions because the parse methods are meant to stay static
+- parse is out of the scope of WorldModel
+- not specific to one class
+
+create*
+- stay in Functions because they need to stay static
+- don't have the parameters to move them into different classes
+- not actually using the data from the class
+
+equals
+adjacent
+distanceSquared
+- uses the Point class
+
+nextPosition*
+- uses Points to dictate where the next position of the Entity goes
